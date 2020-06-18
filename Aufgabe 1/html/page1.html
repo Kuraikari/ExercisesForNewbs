@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aufgabe 1 - Page 1</title>
+    <link rel="stylesheet" href="../css/master.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input id="calc-text" type="text" name="" class="input" value="" placeholder="USE THE BUTTONS" pattern="^[0-9]+(\+|-|\*|\/){1}[0-9]+$" required>
+      <div class="">
+        <input type="button" name="" value="0" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="1" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="2" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="3" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="4" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="5" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="6" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="7" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="8" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="9" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="+" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="-" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="*" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="/" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="√" onclick="document.getElementById('calc-text').value += this.value">
+        <input type="button" name="" value="⏎" onclick="calc(document.getElementById('calc-text').value)">
+        <input type="button" name="" value="C" onclick="document.getElementById('calc-text').value = ''">
+      </div>
+    </div>
+    <script src="../js/functions.js" charset="utf-8"></script>
+  </body>
+</html>

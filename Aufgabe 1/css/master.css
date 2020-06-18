@@ -1,0 +1,30 @@
+@import "base.css";
+@import "classes.css";
+
+body {
+  background-color: #000;
+}
+
+/* UNTERSCHIEDE ZWISCHEN TAG, CLASS UND ID*/
+
+div {
+
+}
+
+.div {
+
+}
+
+#div {
+
+}
+
+/* TEXT */
+
+p {
+
+}
+
+a {
+
+}
